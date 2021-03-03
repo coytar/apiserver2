@@ -1,0 +1,31 @@
+# POST
+POST http://localhost:3000/login?username=candy&password=cane HTTP/1.1 
+###
+
+# GET list of characters
+GET http://localhost:3000/characters HTTP/1.1 
+###
+
+# GET list of characters
+GET http://localhost:3000/characters?sex=Female HTTP/1.1 
+###
+
+# GET user info
+GET http://localhost:3000/characters/Wilma HTTP/1.1 
+###
+
+# GET user info specific
+GET http://localhost:3000/characters/Wilma/age HTTP/1.1 
+###
+
+# PUT
+PUT http://localhost:3000/characters/Wilma HTTP/1.1 
+content-type: application/json
+
+{
+    "age": "26"
+}
+###
+
+# POST
+POST http://localhost:3000/characters/Wilma HTTP/1.1 

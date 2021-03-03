@@ -1,0 +1,29 @@
+{
+  "users": [
+    {
+      "name": "Fred",
+      "age": "24",
+      "sex": "male"
+    },
+    {
+      "name": "Daphe",
+      "age": "21",
+      "sex": "female"
+    },
+    {
+      "name": "Wilma",
+      "age": "29",
+      "sex": "female"
+    },
+    {
+      "name": "Scooby",
+      "age": "5",
+      "sex": "male"
+    },
+    {
+      "name": "Shaggy",
+      "age": "23",
+      "sex": "male"
+    }
+  ]
+}
